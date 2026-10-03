@@ -1,6 +1,6 @@
-#Laboratory 1 - Installment 1: The Landing Page
+#Laboratory 2 - Installment 2: Talking to the User
 #Author: Gio Cenon F. Golpo
-#Description: A simple landing page for the Expesnse Tracker Program.
+#Description: An expense tracker that asks the user for two expenses and calculates the total and average.
 
 print("="*40)
 print("EXPENSE TRACKER".center(40))
@@ -15,6 +15,24 @@ print("[2] View all expenses\t\t(coming soon)")
 print("[3] Show total spent\t\t(coming soon)")
 print("[4] Exit\t\t\t(coming soon)")
 
+name = input("\nWhat's your name? ")
+print(f"\nWelcome, {name}! Let's log two expenses.\n")
+
+item1 = input("First expense? ")
+amount1 = float(input("Amount? "))
+
+item2 = input("\nSecond expense? ")
+amount2 = float(input("Amount? "))
+
+total = amount1 + amount2
+average = total / 2
+
 print("-"*40)
-print("Made by: Gio Cenon F. Golpo | Installment 1")
+print("SUMMARY")
+print(f" - {item1}:\t${amount1}")
+print(f" - {item2}:\t${amount2}")
+print(f"\nTotal spent:\t${total}")
+print(f"Average spent:\t${average}")
 print("-"*40)
+
+print("Made by: Gio Cenon F. Golpo | Installmet 1")
