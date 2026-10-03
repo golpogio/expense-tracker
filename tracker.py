@@ -1,4 +1,4 @@
-# Laboratory 1 - Installment 2: Talking to the User
+# Laboratory 2 - Installment 2: Talking to the User
 # Author: Gio Cenon F. Golpo
 # Description: An expense tracker that asks the user for two expenses and calculates the total and average.
 
@@ -33,4 +33,4 @@ print(f"Total spent:\t${total}")
 print(f"Average:\t${average}")
 print("-" * 40)
 
-print("Made by: Gio Cenon F. Golpo | Installment 2")
+print(f"Made by: Gio Cenon F. Golpo | Installment 2")
